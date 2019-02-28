@@ -1,5 +1,5 @@
 import { Selector } from 'testcafe';
-import TestUtils from '../utils/testutils';
+import TestUtils from '../utils/testUtils';
 
 export default class ForeldrepengeoversiktPageModel {
     async hasRenderedCorrectly(t: TestController) {

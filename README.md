@@ -1,4 +1,4 @@
-# Akseptansetester for søknad om foreldrepengeoversikt
+# Akseptansetester for foreldrepengeoversikt
 
 Brukes for å oppdage regresjon og avgjøre om løsningen kan deployes til produksjon.
 
@@ -14,8 +14,7 @@ export const config = {
     url: 'https://adresse/til/app',
     user: 'brukeren',
     pass: 'passordet',
-    fnr_default: '12345678910',
-    fnr_annenForelderKvinne: '12345678911'
+    fnr: '12345678910'
 };
 ```
 
